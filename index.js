@@ -13,6 +13,15 @@ function destructivelyRemoveLastCat () {
 function destructivelyRemoveFirstCat () {
     cats.shift()
 }
-function appendCat (cat2) {
-  cats.splice(cat2 = ["Tom", ...cats])
+function appendCat (name) {
+    return name = [...cats, "Broom"]
+}
+function prependCat (name) {
+    return name = ["Arnold", ...cats]
+}
+function removeLastCat () {
+    return (cats.slice(0, 2))
+}
+function removeFirstCat () {
+    return (cats.slice(1))
 }
